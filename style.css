@@ -41,14 +41,18 @@ body {
 
 /* HERO */
 .hero {
-  background:
+  min-height: 70vh;
+  background-image:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("img/hero.jpg") center/cover no-repeat;
-  height: 70vh;
+    url("./img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
   display: flex;
   align-items: center;
   padding-left: 60px;
-  background-attachment: fixed;
 }
 
 
