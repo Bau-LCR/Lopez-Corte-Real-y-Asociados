@@ -41,13 +41,16 @@ body {
 
 /* HERO */
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-              url("pm") center/cover no-repeat;
+  background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("img/hero.jpg") center/cover no-repeat;
   height: 70vh;
   display: flex;
   align-items: center;
   padding-left: 60px;
+  background-attachment: fixed;
 }
+
 
 .hero-content {
   color: white;
