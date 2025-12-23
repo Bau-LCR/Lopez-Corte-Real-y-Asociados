@@ -11,7 +11,7 @@ body {
 
 /* HEADER */
 .header {
-  background-color: #1f3c88;
+  background-color: #c22929;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -86,7 +86,7 @@ body {
   font-size: 32px;
   color: #1f3c88;
   margin-bottom: 40px;
-  border-bottom: 4px solid #f1c40f;
+  border-bottom: 4px solid #c22929;
   display: inline-block;
 }
 
