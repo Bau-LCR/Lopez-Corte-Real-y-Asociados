@@ -6,3 +6,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       .scrollIntoView({ behavior: 'smooth' });
   });
 });
+.hero {
+  background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url("img/hero.jpg") center/cover no-repeat;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+  background-attachment: fixed;
+}
