@@ -17,9 +17,12 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 35px 50px;
+
   position: fixed;
   top: 0;
-  z-index: 100;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .logo {
@@ -32,22 +35,28 @@ body {
   color: white;
   margin-left: 35px;
   text-decoration: none;
-  font-size: 17px; /* tamaño más grande */
-  font-weight: 500; /* un poco más firme */
+  font-size: 17px;
+  font-weight: 500;
 }
 
 .nav a:hover {
   text-decoration: underline;
 }
 
+
 /* HERO */
 .hero {
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
               url("pm") center/cover no-repeat;
-  height: 70vh;
+
+  min-height: 100vh;
   display: flex;
   align-items: center;
+
   padding-left: 60px;
+  padding-top: 140px;
+
+  box-sizing: border-box;
 }
 
 .hero-content {
@@ -78,6 +87,7 @@ body {
 .btn:hover {
   background-color: #d4ac0d;
 }
+
 /* SERVICIOS */
 .services {
   padding: 80px 60px;
