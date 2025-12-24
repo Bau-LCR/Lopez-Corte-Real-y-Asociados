@@ -11,7 +11,7 @@ body {
 
 /* HEADER */
 .header {
-  background-color: rgba(194, 41, 41, 0.87);
+  background-color: rgba(194, 41, 41, 0.92);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -150,7 +150,7 @@ body {
 }
 
 .contact h2 {
-  color: #1f3c88;
+  color: #ffffff;
   margin-bottom: 40px;
   border-bottom: 4px solid #f1c40f;
   display: inline-block;
