@@ -238,17 +238,35 @@ footer {
 }
 
 /* WHATSAPP */
-.whatsapp {
+.whatsapp-btn {
   position: fixed;
-  right: 20px;
   bottom: 20px;
-  background: #25d366;
+  right: 20px;
+
+  background-color: #25D366; /* verde WhatsApp */
   color: white;
-  padding: 15px 22px;
+
+  padding: 14px 22px;
   border-radius: 50px;
-  text-decoration: none;
   font-weight: bold;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  text-decoration: none;
+
+  border: 2px solid #25D366;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+
+  z-index: 1000;
+}
+
+.whatsapp-btn:hover {
+  background-color: white;
+  color: #25D366;
 }
 
 /* RESPONSIVE */
