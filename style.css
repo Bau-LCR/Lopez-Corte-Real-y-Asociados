@@ -30,9 +30,10 @@ body {
 
 .nav a {
   color: white;
-  margin-left: 10px;
+  margin-left: 20px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 17px; /* tamaño más grande */
+  font-weight: 500; /* un poco más firme */
 }
 
 .nav a:hover {
