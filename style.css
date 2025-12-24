@@ -11,7 +11,7 @@ body {
 
 /* HEADER */
 .header {
-  background-color: rgba(194, 41, 41, 0.75);
+  background-color: rgba(194, 41, 41, 0.87);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -144,7 +144,7 @@ body {
 
 /* CONTACTO */
 .contact {
-  background: #566b75;
+  background: #702a2a;
   color: white;
   padding: 80px 60px;
 }
