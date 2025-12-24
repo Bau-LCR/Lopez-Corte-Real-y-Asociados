@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 60px;
+  padding: 35px 50px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -24,7 +24,7 @@ body {
 
 .logo {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 27px;
   color: #f1c40f;
 }
 
