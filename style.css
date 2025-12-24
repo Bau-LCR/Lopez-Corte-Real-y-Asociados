@@ -26,17 +26,19 @@ body {
 }
 
 .logo {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 27px;
   color: #f1c40f;
+  letter-spacing: 0.5px;
 }
 
 .nav a {
   color: white;
-  margin-left: 35px;
+  margin-left: 40px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 500;
+  letter-spacing: 0.3px;
 }
 
 .nav a:hover {
