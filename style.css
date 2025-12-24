@@ -11,7 +11,7 @@ body {
 
 /* HEADER */
 .header {
-  background-color: rgba(194, 41, 41, 0.92);
+  background-color: rgba(120, 15, 15, 0.92);
   color: white;
   display: flex;
   justify-content: space-between;
