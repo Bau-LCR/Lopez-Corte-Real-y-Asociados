@@ -43,12 +43,21 @@ body {
   font-weight: 500;
   letter-spacing: 0.4px;
   text-transform: uppercase;
-}
 
+  padding: 8px 14px;
+  border-radius: 6px;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
 
 .nav a:hover {
-  text-decoration: underline;
+  background-color: #f1c40f; /* amarillo */
+  color: #1f3c88;            /* azul */
+  text-decoration: none;
 }
+
 
 
 /* HERO */
