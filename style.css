@@ -206,6 +206,52 @@ body {
   line-height: 1.6;
 }
 
+.consultas {
+  padding: 90px 60px;
+  background-color: #ffffff;
+}
+
+.consultas h2 {
+  color: #c22929;
+  margin-bottom: 10px;
+}
+
+.consultas-sub {
+  margin-bottom: 35px;
+  color: #555;
+}
+
+.consultas-form {
+  max-width: 600px;
+}
+
+.fila {
+  display: flex;
+  gap: 15px;
+}
+
+.consultas-form input,
+.consultas-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+.consultas-form textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.aviso-legal {
+  font-size: 12px;
+  color: #777;
+  margin-top: 10px;
+}
+
+
 /* CONTACTO */
 .contact {
   background: #702a2a;
